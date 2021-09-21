@@ -1,0 +1,46 @@
+---
+const { title = 'CrepesJS', description = 'A compiler for reactive views in HTML with JavaScript' } = Astro.props;
+
+import Meta from './components/Meta.astro';
+import Links from './components/Links.astro';
+import Favicon from './components/Favicon.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en" class="no-js" dir="ltr">
+	<head>
+		<script type="module">
+			document.documentElement.classList.remove("no-js");
+			document.documentElement.classList.add("js");
+		</script>
+
+		<Meta title="{title}" description="{description}" />
+		<Links />
+		<Favicon />
+	</head>
+	<body>
+		<div id="crepes-web" class="flex flex-grow">
+			<slot></slot>
+		</div>
+
+		<!-- Initialize Firebase -->
+		<script
+			type="module"
+			src="{Astro.resolve('../assets/js/firebase.js')}"
+		></script>
+
+		<!-- Initialize WebFonts -->
+		<script>
+			WebFontConfig = {
+				google: {
+					families: ["Fira Sans:400&display=swap"],
+				},
+				events: false,
+			};
+		</script>
+		<script
+			async
+			src="{Astro.resolve('../assets/js/webfontloader.js')}"
+		></script>
+	</body>
+</html>
