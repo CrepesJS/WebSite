@@ -20,7 +20,7 @@ const { title = 'CrepesJS', description = 'A compiler for reactive views in HTML
 		<!-- Service Worker -->
 		<script
 			type="module"
-			src="{Astro.resolve('../assets/js/pwaupdate.js')}"
+			src={Astro.resolve('../assets/js/pwaupdate.js')}
 		></script>
 	</head>
 	<body>
@@ -31,7 +31,7 @@ const { title = 'CrepesJS', description = 'A compiler for reactive views in HTML
 		<!-- Initialize Firebase -->
 		<script
 			type="module"
-			src="{Astro.resolve('../assets/js/firebase.js')}"
+			src={Astro.resolve('../assets/js/firebase.js')}
 		></script>
 
 		<!-- Initialize WebFonts -->
@@ -45,7 +45,7 @@ const { title = 'CrepesJS', description = 'A compiler for reactive views in HTML
 		</script>
 		<script
 			async
-			src="{Astro.resolve('../assets/js/webfontloader.js')}"
+			src={Astro.resolve('../assets/js/webfontloader.js')}
 		></script>
 	</body>
 </html>
