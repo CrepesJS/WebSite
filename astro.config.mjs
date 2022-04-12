@@ -1,7 +1,5 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-	buildOptions: {
-		site: "https://crepes.dev",
-	},
+	site: "https://crepes.dev",
 });
