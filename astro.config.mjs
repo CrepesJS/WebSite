@@ -1,7 +1,13 @@
 import { defineConfig } from "astro/config";
-import turbolinks from "@astrojs/turbolinks";
+import critters from "astro-critters";
 
 export default defineConfig({
-	site: "https://crepes.dev",
-	integrations: [turbolinks()],
+	// TODO Place your site URL here
+	// site: "",
+	integrations: [
+		critters({
+			preload: "body",
+			inlineFonts: true,
+		}),
+	],
 });
