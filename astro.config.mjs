@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import critters from "astro-critters";
+import compress from "astro-compress";
 
 export default defineConfig({
 	// TODO Place your site URL here
@@ -9,5 +10,6 @@ export default defineConfig({
 			preload: "body",
 			inlineFonts: true,
 		}),
+		compress(),
 	],
 });
