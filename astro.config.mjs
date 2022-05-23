@@ -8,8 +8,5 @@ export default defineConfig({
 	experimental: {
 		integrations: true,
 	},
-	integrations: [
-		critters(),
-		compress(),
-	],
+	integrations: [critters(), compress()],
 });
