@@ -3,8 +3,7 @@ import critters from "astro-critters";
 import compress from "astro-compress";
 
 export default defineConfig({
-	// TODO Place your site URL here
-	// site: "",
+	site: "https://crepes.dev",
 	experimental: {
 		integrations: true,
 	},
