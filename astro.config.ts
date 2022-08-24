@@ -1,6 +1,6 @@
-import compress from "astro-compress";
-import critters from "astro-critters";
 import sitemap from "@astrojs/sitemap";
+import critters from "astro-critters";
+import compress from "astro-compress";
 
 import type { AstroUserConfig } from "astro";
 
