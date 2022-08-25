@@ -10,7 +10,7 @@
 		"url": "https://github.com/CrepesJS/crepes.dev/issues"
 	},
 	"author": "Nikola Hristov <nikola@playform.cloud>",
-	"license": "SEE LICENSE IN LICENSE",
+	"license": "MIT",
 	"private": true,
 	"keywords": [],
 	"scripts": {
