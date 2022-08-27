@@ -3,7 +3,7 @@
 	"version": "0.0.3",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/CrepesJS/crepes.dev.git"
+		"url": "https://github.com/CrepesJS/crepes.dev.git"
 	},
 	"homepage": "https://github.com/CrepesJS/crepes.dev#readme",
 	"bugs": {
