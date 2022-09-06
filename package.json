@@ -9,7 +9,7 @@
 	"bugs": {
 		"url": "https://github.com/CrepesJS/crepes.dev/issues"
 	},
-	"author": "nikolarhristov",
+	"author": "crepesjs",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
