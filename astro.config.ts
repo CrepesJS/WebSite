@@ -4,15 +4,13 @@ import critters from "astro-critters";
 
 import sitemap from "@astrojs/sitemap";
 
-export default (): AstroUserConfig => {
-	return {
-		site: "https://crepes.dev",
-		integrations: [
-			sitemap(),
-			critters(),
-			compress({
-				logger: 1,
-			}),
-		],
-	};
-};
+export default (): AstroUserConfig => ({
+	site: "https://crepes.dev",
+	integrations: [
+		sitemap(),
+		critters(),
+		compress({
+			logger: 1,
+		}),
+	],
+});
