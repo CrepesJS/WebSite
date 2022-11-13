@@ -1,7 +1,6 @@
 {
 	"name": "crepes-web",
 	"version": "0.0.1",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/CrepesJS/crepes.dev.git"
@@ -10,6 +9,7 @@
 	"bugs": {
 		"url": "https://github.com/CrepesJS/crepes.dev/issues"
 	},
+	"license": "MIT",
 	"private": true,
 	"scripts": {
 		"build": "astro check && astro build",
