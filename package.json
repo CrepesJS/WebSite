@@ -10,11 +10,7 @@
 		"url": "https://github.com/CrepesJS/crepes.dev/issues"
 	},
 	"license": "MIT",
-	"private": false,
-	"keywords": [
-		"astro",
-		"starter"
-	],
+	"private": true,
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
@@ -44,6 +40,6 @@
 		"tailwindcss": "3.2.7"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "restricted"
 	}
 }
