@@ -62,10 +62,5 @@
 	"orientation": "landscape",
 	"short_name": "crepes",
 	"start_url": "/",
-<<<<<<< HEAD
 	"theme_color": "#fa5252"
 }
-=======
-	"theme_color": "// TODO Use the same theme color from template.html"
-}
->>>>>>> upstream/main
