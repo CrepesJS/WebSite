@@ -1,13 +1,14 @@
 {
-	"name": "crepes-web",
+	"name": "@website/crepes_lightrix-help",
 	"version": "0.0.1",
-	"homepage": "https://github.com/CrepesJS/crepes.dev#readme",
+	"private": false,
+	"homepage": "https://github.com/CrepesJS/Website#readme",
 	"bugs": {
-		"url": "https://github.com/CrepesJS/crepes.dev/issues"
+		"url": "https://github.com/CrepesJS/Website/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/CrepesJS/crepes.dev.git"
+		"url": "git+https://github.com/CrepesJS/Website.git"
 	},
 	"license": "MIT",
 	"scripts": {
@@ -21,7 +22,7 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.6",
 		"@tailwindcss/typography": "0.5.10",
-		"astro": "3.0.13",
+		"astro": "3.1.0",
 		"astro-compress": "2.0.16",
 		"astro-critters": "2.0.11",
 		"astro-rome": "2.0.9",
@@ -41,5 +42,8 @@
 		"typescript": "5.2.2",
 		"typescript-esbuild": "0.1.15",
 		"zod": "3.22.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
