@@ -9,4 +9,3 @@
 	measurementId: "G-9E2P7HPRNM",
 });
 
-export {};
