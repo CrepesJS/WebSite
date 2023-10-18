@@ -12,7 +12,7 @@
 	},
 	"license": "MIT",
 	"scripts": {
-		"prepublishOnly": "astro check && astro build",
+		"prepublishOnly": "astro check && astro build && knip",
 		"start": "astro dev"
 	},
 	"dependencies": {
