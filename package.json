@@ -10,7 +10,7 @@
 		"type": "git",
 		"url": "git+https://github.com/CrepesJS/Website.git"
 	},
-	"license": "MIT",
+	"license": "SEE LICENSE IN LICENSE",
 	"scripts": {
 		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
