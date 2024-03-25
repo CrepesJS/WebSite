@@ -2,19 +2,19 @@
 	"name": "@website/crepes_nikolahristov_tech",
 	"version": "0.0.1",
 	"private": false,
-	"homepage": "https://github.com/CrepesJS/Website#readme",
+	"homepage": "HTTPS://GitHub.Com/CrepesJS/Website#readme",
 	"bugs": {
-		"url": "https://github.com/CrepesJS/Website/issues"
+		"url": "HTTPS://GitHub.Com/CrepesJS/Website/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/CrepesJS/Website.git"
+		"url": "git+HTTPS://GitHub.Com/CrepesJS/Website.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Nikola R. Hristov",
 		"email": "Nikola@Playform.Cloud",
-		"url": "https://nikolahristov.tech"
+		"url": "HTTPS://NikolaHristov.Tech"
 	},
 	"scripts": {
 		"prepublishOnly": "astro build",
