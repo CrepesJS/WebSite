@@ -31,11 +31,7 @@
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.13",
-<<<<<<< HEAD
 		"astro": "4.10.2",
-=======
-		"astro": "4.10.1",
->>>>>>> 6a020897f9b4cb64a4b08bc0cc3afc08d89965a3
 		"astro-biome": "0.0.10",
 		"astro-capo": "0.0.1",
 		"astro-critters": "2.1.10",
