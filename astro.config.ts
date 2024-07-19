@@ -4,6 +4,7 @@ export default (await import("astro/config")).defineConfig({
 	outDir: "./Target",
 	site: "https://crepes.dev",
 	compressHTML: true,
+	prefetch: true,
 	integrations: [
 		import.meta.env.MODE === "production"
 			? (await import("astrojs-service-worker")).default()
