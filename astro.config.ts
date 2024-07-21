@@ -2,10 +2,11 @@ export default (await import("astro/config")).defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "https://crepes.dev",
+	site: "https://Crepes.Dev",
 	compressHTML: true,
 	prefetch: true,
 	integrations: [
+		// @ts-ignore
 		import.meta.env.MODE === "production"
 			? (await import("astrojs-service-worker")).default()
 			: null,
