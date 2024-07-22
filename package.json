@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "@website/crepes_nikolahristov_tech",
 	"version": "0.0.1",
 	"private": false,
@@ -15,13 +16,41 @@
 		"name": "Nikola Hristov",
 		"email": "Nikola@PlayForm.Cloud",
 		"url": "https://nikolahristov.tech"
+=======
+	"name": "@playform/starter",
+	"version": "0.0.1",
+	"private": false,
+	"description": "📄 Starter —",
+	"keywords": [
+		"astro",
+		"starter",
+		"skeleton",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/PlayForm/Starter#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/PlayForm/Starter/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PlayForm/Starter.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🖋️ Source — 👐🏻 Open —",
+		"email": "Source/Open@PlayForm.Cloud",
+		"url": "HTTPS://PlayForm.Cloud"
+>>>>>>> Fork/Current
 	},
 	"scripts": {
 		"Run": "astro dev",
 		"prepublishOnly": "astro build"
 	},
 	"dependencies": {
+<<<<<<< HEAD
 		"@astrojs/check": "0.8.2",
+=======
+>>>>>>> Fork/Current
 		"@astrojs/sitemap": "3.1.6",
 		"@playform/build": "0.1.1",
 		"@playform/compress": "0.0.13",
@@ -31,9 +60,13 @@
 		"@tailwindcss/forms": "0.5.7",
 		"@tailwindcss/typography": "0.5.13",
 		"astro": "*",
+<<<<<<< HEAD
 		"astro-biome": "0.0.10",
 		"astro-capo": "0.0.1",
 		"astro-critters": "2.1.10",
+=======
+		"astro-capo": "0.0.1",
+>>>>>>> Fork/Current
 		"astrojs-service-worker": "2.0.0",
 		"autoprefixer": "10.4.19",
 		"cssnano": "7.0.4",
@@ -46,12 +79,21 @@
 		"postcss-import": "16.1.0",
 		"postcss-reporter": "7.1.0",
 		"postcss-url": "10.1.3",
+<<<<<<< HEAD
+=======
+		"solid-js": "1.8.18",
+>>>>>>> Fork/Current
 		"tailwindcss": "*",
 		"typescript": "*",
 		"zod": "*"
 	},
 	"publishConfig": {
+<<<<<<< HEAD
 		"access": "public",
 		"provenance": true
+=======
+		"provenance": true,
+		"access": "public"
+>>>>>>> Fork/Current
 	}
 }
