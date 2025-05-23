@@ -6,7 +6,7 @@ export default defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "HTTPS://Crepes.Dev",
+	site: "https://Crepes.Dev",
 	compressHTML: true,
 	prefetch: {
 		defaultStrategy: "hover",
